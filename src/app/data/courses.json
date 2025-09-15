@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Web Application Development",
+        "code": "CSSE3143",
+        "instructor": "Asad Kamal",
+        "credits": 3,
+        "status": "Active",
+        "gradeLink": "/grades/web-app-dev",
+        "attendance": 86.0
+    },
+    {
+        "title": "Operating Systems - Lab",
+        "code": "CSCS3551",
+        "instructor": "Qaisar Aslam",
+        "credits": 1,
+        "status": "Active",
+        "gradeLink": "/grades/os-lab",
+        "attendance": 90.0
+    },
+    {
+        "title": "Introduction to Software Engineering",
+        "code": "CSSE3113",
+        "instructor": "Muhammad Basit Ali Gillani",
+        "credits": 3,
+        "status": "Active",
+        "gradeLink": "/grades/software-eng",
+        "attendance": 79.0
+    },
+    {
+        "title": "Operating Systems",
+        "code": "CSCS3553",
+        "instructor": "Dr Adnan Ghafoor",
+        "credits": 3,
+        "status": "Active",
+        "gradeLink": "/grades/os",
+        "attendance": 81.0
+    }
+]

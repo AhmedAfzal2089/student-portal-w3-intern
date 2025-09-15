@@ -2,7 +2,7 @@ import { Bell } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <header className="h-16 px-6 border-b bg-white flex items-center justify-between">
+    <header className="h-16 px-6 border-b bg-white flex items-center justify-between ml-64 p-6">
       {/* Left - Page Title */}
       <h1 className="text-lg font-semibold">Dashboard</h1>
 

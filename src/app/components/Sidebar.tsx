@@ -1,10 +1,5 @@
 import Link from "next/link";
-import {
-  LayoutDashboard,
-  BookOpen,
-  FileText,
-  CheckSquare,
-} from "lucide-react";
+import { LayoutDashboard, BookOpen, FileText, CheckSquare } from "lucide-react";
 
 const navItems = [
   { label: "Dashboard", icon: LayoutDashboard, href: "/dashboard" },
@@ -14,7 +9,7 @@ const navItems = [
 ];
 const Sidebar = () => {
   return (
-    <aside className="h-screen w-64 bg-white border-r flex flex-col justify-between">
+    <aside className="fixed top-0 left-0 h-screen w-64 bg-white border-r flex flex-col justify-between z-50">
       {/* Top - Logo */}
       <div>
         <div className="p-6 flex items-center gap-2">
