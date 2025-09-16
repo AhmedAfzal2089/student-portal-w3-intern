@@ -1,7 +1,7 @@
 "use client";
 import { redirect } from "next/navigation";
 import { useState } from "react";
-import { Bell, LogOut, Menu, X } from "lucide-react";
+import { LogOut, Menu, X } from "lucide-react";
 import Link from "next/link";
 
 const navItems = [
