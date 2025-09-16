@@ -1,7 +1,7 @@
 "use client";
-
+import { redirect } from "next/navigation";
 import { useState } from "react";
-import { Bell, Menu, X } from "lucide-react";
+import { Bell, LogOut, Menu, X } from "lucide-react";
 import Link from "next/link";
 
 const navItems = [
@@ -35,8 +35,13 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           {/* Notification */}
           <div className="relative">
-            <Bell className="h-5 w-5 text-muted-foreground" />
-            <span className="absolute top-0 right-0 block h-2 w-2 rounded-full bg-emerald-500 ring-2 ring-white"></span>
+            <LogOut
+              onClick={() => {
+                redirect("/login");
+              }}
+              className="h-5 w-5 text-muted-foreground"
+            />
+          
           </div>
 
           {/* User Info */}
@@ -45,9 +50,9 @@ export default function Navbar() {
               BA
             </div>
             <div className="text-right">
-              <div className="text-sm font-medium">Babar Azam</div>
+              <div className="text-sm font-medium">ALi Muatahir</div>
               <div className="text-xs text-muted-foreground">
-                babar@devxcript.c...
+                alimutahir@devxcript.c...
               </div>
             </div>
           </div>
