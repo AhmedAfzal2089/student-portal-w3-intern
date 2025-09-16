@@ -16,7 +16,7 @@ export default function RootLayout({
           {/* Main content area */}
           <div className="flex flex-col flex-1">
             <Navbar />
-            <main className="ml-64 p-6">{children}</main>
+            <main className="md:ml-64 p-6">{children}</main>
           </div>
         </div>
       </body>

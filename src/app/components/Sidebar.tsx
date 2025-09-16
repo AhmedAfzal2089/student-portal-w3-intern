@@ -7,9 +7,10 @@ const navItems = [
   { label: "Results", icon: FileText, href: "/results" },
   { label: "Attendance", icon: CheckSquare, href: "/attendance" },
 ];
+
 const Sidebar = () => {
   return (
-    <aside className="fixed top-0 left-0 h-screen w-64 bg-white border-r flex flex-col justify-between z-50">
+    <aside className="hidden md:flex fixed top-0 left-0 h-screen w-64 bg-white border-r flex-col justify-between z-50">
       {/* Top - Logo */}
       <div>
         <div className="p-6 flex items-center gap-2">
