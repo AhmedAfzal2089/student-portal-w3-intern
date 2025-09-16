@@ -3,7 +3,7 @@ import { LayoutDashboard, BookOpen, FileText, CheckSquare } from "lucide-react";
 
 const navItems = [
   { label: "Dashboard", icon: LayoutDashboard, href: "/dashboard" },
-  { label: "Courses", icon: BookOpen, href: "/courses" },
+  { label: "Courses", icon: BookOpen, href: "/course" },
   { label: "Results", icon: FileText, href: "/results" },
   { label: "Attendance", icon: CheckSquare, href: "/attendance" },
 ];
